@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+</head>
+<body>
+	<h1>
+		Register
+	</h1>
+	<form>
+		<label>
+			First Name: 
+			<input type="text" name="first_name" placeholder="Scott" required="">
+		</label>
+		<label>
+			Last Name:
+			<input type="text" name="last_name" placeholder="Lee" required="">
+		</label>
+		<br>
+		<label>
+			Male
+			<input type="radio" name="gender">
+		</label>
+		<label>
+			Female
+			<input type="radio" name="gender">
+		</label>
+		<label>
+			Other
+			<input type="radio" name="gender">
+		</label>
+		<br>
+		<label>
+			Email:
+			<input type="email" name="email" required="">
+		</label>
+		<label>
+			Password:
+			<input type="Password" name="pw" pattern=".{5,10}" required title="5 to 10 characters">
+		</label>
+		<br>
+		<label>
+			Birthday:
+			<select>
+				<option>
+					Month
+				</option>
+				<option>
+					Jan
+				</option>
+				<option>
+					Feb
+				</option>
+				<option>
+					March
+				</option>
+			</select>
+			<select>
+				<option>Day</option>
+				<option>
+					1
+				</option>
+				<option>
+					2
+				</option>
+				<option>
+					3
+				</option>
+			</select>
+			<select>
+				<option>
+					Year
+				</option>
+				<option>
+					1996
+				</option>
+				<option>
+					1997
+				</option>
+			</select>
+		</label>
+		<br>
+		<label>
+			I agree to the terms and conitions
+			<input type="checkbox" name="">
+		</label>
+		<br>
+		<button>Submit</button>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+let name = prompt("What is your firstname?")
+let lastname = prompt("What is your lastname?")
+let age = prompt("What is your age?")
+console.log("Your name is "+name +" "+lastname)
+console.log("You are " + age +" years old.")

@@ -1,0 +1,27 @@
+body{
+	width: 80%;
+	margin: 10px auto;
+	border: 10px solid lightgrey;
+	font-family: Raleway;
+}
+hr{
+	width: 96%;
+	margin: 0 auto;
+
+}
+h2{
+	font-family: Raleway;
+	font-weight: 800;
+}
+div{
+	padding: 0 10px 0 10px;
+}
+.quote{
+	border-left: 3px solid grey;
+	padding-left: 3px
+}
+.date{
+	color: lightblue;
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+}
